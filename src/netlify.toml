@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/https://www.sanity.io/manage/personal/project/oyj7i0cx>"
+  to = "<https://master--resplendent-sundae-a4c209.netlify.app/>"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
